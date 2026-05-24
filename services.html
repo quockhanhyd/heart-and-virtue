@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A2Z Community Care - Services</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo-text" data-i18n="company_name">A2Z COMMUNITY CARE</div>
+        <div class="contact-info">
+            <div class="email">✉ Info@a2zcommunitycare.com.au</div>
+            <div class="phone">📱 (+61) 426 126 879</div>
+            <select id="languageSelect">
+                <option value="en">English</option>
+                <option value="vi">Tiếng Việt</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="A2Z Logo" class="logo-img">
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav_about">About</a></li>
+                <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                <li><a href="reviews.html" data-i18n="nav_reviews">Reviews</a></li>
+                <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            
+            <!-- <div class="nav-right">
+                <button class="lang-btn" onclick="toggleLanguage()">EN | VI</button>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div> -->
+        </div>
+    </nav>
+
+    <section class="page-banner banner-services">
+        <h1 data-i18n="services_banner">Services</h1>
+    </section>
+
+    <section class="services-section">
+        <div class="services-title">
+            <h2 data-i18n="services_we_provide">SERVICES WE PROVIDE</h2>
+            <p data-i18n="services_subtitle">Provided by Our Caring Professionals</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3 data-i18n="service_respite">Respite Accommodation</h3>
+                <img src="images/service1.jpg" alt="Respite">
+            </div>
+            <div class="service-card">
+                <h3 data-i18n="service_support">Support Coordination</h3>
+                <img src="images/service2.jpg" alt="Support">
+            </div>
+            <div class="service-card">
+                <h3 data-i18n="service_group">Group & Centre-Based Activities</h3>
+                <img src="images/service3.jpg" alt="Group">
+            </div>
+            <div class="service-card">
+                <h3 data-i18n="service_career">Career Orientation and Job Training</h3>
+                <img src="images/service4.jpg" alt="Career">
+            </div>
+            <div class="service-card">
+                <h3 data-i18n="service_household">Household Tasks</h3>
+                <img src="images/service5.jpg" alt="Household">
+            </div>
+            <div class="service-card">
+                <h3 data-i18n="service_medication">Medication Management</h3>
+                <img src="images/service6.jpg" alt="Medication">
+            </div>
+            <div class="service-card">
+                <h3 data-i18n="service_travel">Travel and Transport</h3>
+                <img src="images/service7.jpg" alt="Travel">
+            </div>
+            <div class="service-card">
+                <h3 data-i18n="service_personal">Personal Care & Development Skilled</h3>
+                <img src="images/service8.jpg" alt="Personal">
+            </div>
+            <div class="service-card">
+                <h3 data-i18n="service_community">Community Participation</h3>
+                <img src="images/service9.jpg" alt="Community">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3 data-i18n="footer_newsletter">Subscribe to Our Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" data-i18n-placeholder="footer_email_placeholder" placeholder="Email">
+                    <button data-i18n="footer_send">SEND</button>
+                </form>
+                <p class="abn" data-i18n="footer_abn">ABN: 13 656 767 761</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer_quicklinks">QUICK LINKS</h3>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">HOME</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">ABOUT US</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">SERVICES</a></li>
+                    <li><a href="reviews.html" data-i18n="nav_reviews">CUSTOMER REVIEWS</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="map-placeholder">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1573.8863710536734!2d144.73976765113542!3d-37.91237427500442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6862d3ef3361d%3A0x137b7dd85a80b314!2s12%20Airlie%20Ave%2C%20Point%20Cook%20VIC%203030%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1678006863358!5m2!1svi!2s" width="100%" height="100%" style="border:0;"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translate.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
